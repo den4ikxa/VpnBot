@@ -1,0 +1,22 @@
+{
+  "name": "vpnbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "franc": "^6.2.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
