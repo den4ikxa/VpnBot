@@ -9,7 +9,7 @@ import FormDdata from 'form-data'
 import e from 'express'
 import { request } from 'http'
 
-const token = '7529621788:AAHyvjlSaKjAJ-xXLAn1TDpK12VqE_APsn0'
+const token = ''
 const bot = new TelegramBot(token,{polling:true})
 const testUSer = {
     id: 32,
